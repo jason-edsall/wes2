@@ -4,7 +4,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>TESTING IT ALL</title>
+            <title>To the Rev. John Green</title>
             <author>Wesley, John</author>
             <editor>Taylor, Michelle M.</editor>
          </titleStmt>
@@ -12,223 +12,115 @@
             <publisher>The Wesley Works</publisher>
             <pubPlace>Tampa, FL</pubPlace>
             <date>2020-07-28</date>
-            <idno type="URI">http://syriaca.org/openletters/TestItAll1</idno>
+            <idno type="URI">http://syriaca.org/openletters/ToGreenJohn1761Apr2</idno>
          </publicationStmt>
          <sourceDesc>
             <listBibl>
-               <bibl>
-                  <title>The Works of John Wesley Volume 11: The Appeals to Men of Reason and
-                     Religion and Certain Related Open Letters</title>
-                  <editor role="volume">Cragg, Gerald R.</editor>
-                  <editor role="textual">Baker, Frank</editor>
-                  <editor role="general">Heitzenrater, Richard P.</editor>
+               <bibl n="1">
+                  <title>The Works of John Wesley Volume 27: Letters III, 1756-1765</title>
+                  <editor role="volume">Campbell, Ted A.</editor>
+                  <editor role="general">Maddox, Randy L.</editor>
                   <publisher>Abingdon Press</publisher>
                   <pubPlace>Nashville, TN</pubPlace>
-                  <date>1989-11-01</date>
+                  <date>2015-11-03</date>
                </bibl>
-               <bibl> by H. Cock, in Bloomsbury-Market and sold at the Foundery, near
-                  Upper-Moorfields; by J. Robinson, in Ludgate-Street; by T. Trye, near
-                  Gray's-Inn-Gate, Holborn; by T. James, under the Royal-Exchange; and G.
-                  Englefield in West-street, near the Seven Dials. M.DCC.LII.</bibl>
+               <bibl n="2">Published transcription; <hi rend="italic">Arminian Magazine</hi> 3
+                  (1780), 670-71.</bibl>
+               <!--This is rendered as the last line of the text in the print editions; we need to
+                  generate a field that populates this second bibl every time.-->
+               <!--This isn't the best way to render dual sources, but they aren't really both
+                  witnesses in the sense TEI intends; revisit encoding practices for sourceDescs.-->
             </listBibl>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <head>A SECOND LETTER, &amp;c<note place="foot">No copy is known of the presumptive first
-               edition of 1752. For variant readings from the edited text (based on the second
-               edition, London, Cock, 1752) and the version in the <hi rend="italic">Works</hi>,
-               Vol. 17 (1773) see the Appendix to this volume, p. 557. For further details, see <hi rend="italic">Bibliography</hi>, No. 195.</note>
+         <head>To the <persName>Rev. John Green</persName>
+                <note place="foot" n="1">
+                    <persName>John
+                  Green</persName> was Dean of <placeName>Lincoln</placeName>, and became Bishop of
+                  <placeName>Lincoln</placeName> in <date when="1761-12-01">Dec. 1761</date>. He
+               published pseudonymously <bibl>
+                        <hi rend="italic">The Principles and Practices of of
+                     the Methodists Considered</hi>
+                    </bibl> (London, 1760), to which JW responded
+               briefly in his letter to <bibl>
+                        <hi rend="italic">Lloyd's Evening
+                  Post</hi>
+                    </bibl> dated <date when="1760-11-22">Nov. 22, 1760</date>. See <hi rend="italic">ODNB</hi>.</note>
             </head>
          <opener>
-                <salute>My Lord,</salute>
-            </opener>
-         <p>In my late letter to your lordship I used no ceremony: I suppose it was not expected
-            from one who was so deeply injured. And I trust I used no rudeness; if I did, I am ready
-            to ask your lordship's pardon.</p>
-         <p>That letter 'related to a matter of fact published on your lordship's
-            authority, which I endeavoured to falsify', and your lordship now again endeavours
-            to support.<note place="foot">
-                    <bibl>
-                        <hi rend="italic">The Bishop of Exeter's
-                     Letter</hi>
-                    </bibl>, pp. 2-3 [i.e. <hi rend="italic">The Bishop of Exeter's
-                  Answer to Mr. J. Wesley's late Letter to his Lordship</hi>, London, Knapton,
-               1752, pp. 1-2. For the original charge in its full detail see Lavington, Enthusiasm,
-               Pt. III, p. 51, and for Wesley's rebuttal the opening sections of his <bibl>
-                        <hi rend="italic">Second Letter to the Author of the Enthusiasm of Methodists and
-                     Papists Compared</hi>
-                    </bibl>].</note>
+                <placeName>[Chester]</placeName>
+                <lb/>
+                <date when="1761-04-02">April 2, 1761</date>
+                <lb/>
+                <lb/>
+            <salute>Rev. Sir,</salute>
+         </opener>
+         <p>I have no desire to dispute, least of all with one whom I believe <index indexName="biblical">
+               <term cRef="Acts10:35">to fear God and work righteousness</term>
+            </index>. And I have no time to spare. Yet I think it my duty to write a few lines with
+            regard to those you sent to <persName>Mr. Bennet</persName>.<note place="foot" n="2">The
+               identity of <persName>'Mr. Bennet'</persName> is unclear (his former
+               colleague, <persName>John Bennet</persName>, having died in <date when="1759-01-01">1759</date>).</note>
             </p>
-         <p>The facts alleged are: First, That I told <persName>Mrs. Morgan</persName> at
-               <placeName>Mitchell</placeName>, 'You are in hell; you are damned already';
-            Secondly, That I asked her to 'live upon free cost'; Thirdly, That she
-            determined to admit no more Methodists into her house.</p>
-         <p>At first I thought so silly and improbable a story neither deserved nor required a
-            confutation; but when my friends thought otherwise I called on <persName>Mrs.
-               Morgan</persName>, who denied she ever said any such thing. I wrote down her words,
-            part of which I transcribed in my letter to your lordship, as follows:</p>
-         <p>On <date when="1750-08-25">Saturday, August 25, 1750</date>, <persName>Mr.
-               Trembath</persName> of <placeName>St. Gennys</placeName>, <persName>Mr.
-               Haime</persName> of <placeName>Shaftesbury</placeName>, and I, called at
-               <persName>Mr. Morgan</persName>'s at <placeName>Mitchell</placeName>. The
-            servant telling me her master was not at home, I desired to speak with her mistress, the
-            'honest, sensible woman'. I immediately asked, 'Did I ever tell you or
-            your husband that you would be damned if you took any <seg ana="money">money</seg> of
-            me?' (So the story ran in the first part of the Comparison it has now undergone a
-            very considerable alteration.) 'Or did you or he ever affirm' (another
-            circumstance <note place="foot">i.e. Wesley's statement that she denied making die
-               charge that he 'attempted to debauch a maid'.</note> related at
-               <placeName>Truro</placeName>) 'that I was rude with your maid?' She replied
-            vehemently, 'Sir, I never said you was, or that you said any such thing. And I
-            don't suppose my husband did. But we have been belied as well as our
-            neighbours.' She added, 'When the bishop came down last, he sent us word he
-            would dine at our house; but he did not, being invited to a neighbouring
-            gentleman's. He sent for me thither, and said, "Good woman, do you know these
-            people that go up and down? Do you know <persName>Mr. Wesley</persName>? Did not he tell
-            you, you would be damned if you took any <seg ana="money">money</seg> of him? And did
-            not he offer rudeness to your maid?" I told him, "No, my lord; he never said
-            any such thing to me, nor to my husband that I know of. He never offered any rudeness to
-            any maid of mine. I never saw, or knew any harm by him. But a man told me once (who, I
-            was told, was a Methodist Preacher) that I should be damned, if I did not know my sins
-            were forgiven."<note place="foot">Wesley, <hi rend="italic">
-                        <bibl>Second Letter to
-                     the Author of The Enthusiasm of the Methodists and Papists
-               Compared</bibl>
-                    </hi>, § 3, reprinted in <hi rend="italic">
-                        <bibl>The Bishop of
-                     Exeter' Answer</bibl>
-                    </hi>, pp. 5-7.</note>
-            </p>
-         <p>Your lordship replies, 'I neither sent word that I would dine at their house, nor
-            did I send for <persName>Mrs. Morgan</persName>.…Every word that passed between us was
-            at her own house at <placeName>Mitchell</placeName>.'<note place="foot">
-                    <hi rend="italic">
-                        <bibl>[The Bishop of Exeter' Answer]</bibl>
-                    </hi>, p. 7.</note>
-            I believe it; and consequently, that the want of exactness in this point rests on
-               <persName>Mrs. Morgan</persName>, not on your lordship.</p>
-         <p>Your lordship adds, 'The following attestations will sufficiently clear me from any
-            imputation, or even suspicion, of having published a falsehood.' I apprehend
-            otherwise. To waive what is past, if the facts now published by your lordship, or any
-            part of them, be not true, then certainly your lordship will lie under more than a
-            'suspicion of having published a falsehood'.</p>
-         <p>The attestations your lordship produces are: First, those of your lordship's
-               chancellor<note place="foot">
-                    <persName>Revd. John Fursman</persName>, Chancellor of
-               Exeter Cathedral.</note> and archdeacon<note place="foot">
-                    <persName>Revd. William
-                  Hole</persName>, Archdeacon of <placeName>Barnstaple</placeName>.</note>:
-            Secondly, those of <persName>Mr. Bennet</persName>.<note place="foot">
-                    <persName>Revd.
-                  Thomas Bennet</persName>, Vicar of <placeName>St Enoder</placeName>, who served
-               the village of <placeName>Mitchell</placeName>.</note>
-            </p>
-         <p>The former attest that in <date when="1748-06-01">June</date> or <date when="1748-07-01">July, 1748</date>, <persName>Mrs. Morgan</persName> did say those things to your
-               lordship.<note place="foot">
-                    <hi rend="italic">
-                        <bibl>[The Bishop of Exeter'
-                     Answer]</bibl>
-                    </hi>, pp. 8-10.</note> I believe she did, and therefore acquit
-            your lordship of being the inventor of those falsehoods.</p>
+         <!--I should try to find the exact date of John Bennet's death. -->
          <p>
-                <persName>Mr. Bennet</persName> avers that in <date>January last</date><!--Need to
-            verify year.-->
-            <persName>Mrs. Morgan</persName> repeated to him what she had before said to your
-               lordship.<note place="foot">
+                <seg ana="termMethodism">You therein say: 'If you sent me the books to inform me of
+               an error which I had publicly advanced, pardon me if I say I know numbers who call
+               themselves Methodists assert their assurance of salvation at the very time they
+               wallow in sins of the deepest dye.' Permit me, sir, to speak freely. I do not
+               doubt the fact. But 1) those who are connected with <hi rend="italic">me</hi> do not
+                  <hi rend="italic">call themselves</hi> Methodists. Others call them by that
+               nickname, and they cannot help it, but I continually warn them not to pin it upon
+               themselves. 2) We rarely use that ambiguous expression of 'Christ's
+               righteousness imputed to us'.</seg> 3) We believe a man may be a real Christian
+            without being 'assured of his salvation.' 4) We know no man can be assured of
+            salvation while he lives in any sin whatever. 5) The wretches who talk in that manner
+            are neither Methodist nor Moravians, but followers of <persName>William
+               Cudsworth</persName>, <persName>James Relly</persName>, and their associates, who
+            abhor us as much as they do the pope, and ten times more than they do the <seg ana="devil">devil</seg>. If <hi rend="italic">you</hi> oppose those, then so do <hi rend="italic">I</hi>, and have done privately and publicly for these twenty
+            years.</p>
+         <p>But you say: 'Such as do not profess this doctrine will not be affected by my
+            sermon.' Indeed they will, for the world (as you yourself did) lump all that are
+            called Methodists together. Consequently whatever you then said of Methodists in general
+            falls on <hi rend="italic">us</hi> as well as them, and so <hi rend="italic">we</hi> are
+            condemned for those very principles which we totally detest and abhor. A small part of
+            the <hi rend="italic">
+                    <bibl>Preservative</bibl>
+                </hi>
+                <note place="foot" n="3">
                     <hi rend="italic">
-                        <bibl>[The Bishop of Exeter'
-                     Answer]</bibl>
-                    </hi>, pp. 11-12.</note> Probably she might; having said those
-            things once, I do not wonder if she said them again.</p>
-         <p>Nevertheless, before <persName>Mr. Trembath</persName> and <persName>Mr.
-               Haime</persName> she denied every word of it.</p>
-         <p>To get over this difficulty, your lordship publishes a second letter from <persName>Mr.
-               Bennet</persName>, wherein he says: 'On <date when="1750-03-04">March 4th
-               last</date><!--Not 100% sure this is the right year; need to verify.-->
-            <persName>Mrs. Morgan</persName> said, "I was told by my servant that I was wanted
-            above stairs; where, when I came, the chamber door being open, I found them
-               (<persName>Mr. Wesley</persName> and others) round the table on their
-            knees."' He adds, 'That <persName>Mrs. Morgan</persName> owned one
-            circumstance in it was true; but as to the other parts of <persName>Mr.
-               Wesley</persName>'s letter to the bishop, she declares 'tis all
-            false.'</p>
-         <p>I believe <persName>Mrs. Morgan</persName> did say this to <persName>Mr.
-               Bennet</persName>, and that therefore neither is he <index indexName="biblical">
-               <term cRef="Rev21:27">'the maker of a lie'</term>
-            </index>. But he is the relater of a whole train of falsehoods, and those told merely
-            for telling sake. I was never yet in any chamber at <persName>Mrs.
-            Morgan</persName>'s. I was never <hi rend="italic">above stairs</hi> there in my
-            life. On <date when="1750-08-25">August 25, 1750</date>,<note/> was <hi rend="italic">below stairs</hi> all the time I was in the house. When <persName>Mrs.
-               Morgan</persName> came in I was <hi rend="italic">standing</hi> in the large parlour;
-            nor did any of us <hi rend="italic">kneel</hi> while we were under the roof. This both
-               <date>Mr. Trembath</date> and <date>Mr. Haime</date> can attest upon oath, whatsoever
-            may declare to the contrary.</p>
-         <p>But she declared farther (so <persName>Mr. Bennet</persName> writes), 'That
-               <persName>Mr. John Wesley</persName> some time ago said to a maid of hers such things
-            as were not fit to be spoken...<note place="foot">
-                    <hi rend="italic">
-                        <bibl>[The Bishop of
-                     Exeter' Answer]</bibl>
-                    </hi>, p. 11.</note> And <persName>Mr.
-               Morgan</persName> declared that he 'did or said such indecent things to the
-            above-named maid' (the same fact, I presume, only a little embellished) 'in
-            his chamber, in the night, that she immediately ran downstairs, and protested she would
-            not go near him or any of the Methodists more'.<note place="foot">
-                    <hi rend="italic">
-                        <bibl>[The Bishop of Exeter' Answer]</bibl>
-                    </hi>, p. 12.</note>
-            </p>
-         <p>To save trouble to your lordship as well as to myself I will put this cause upon a very
-            short issue. If your lordship will only prove that ever I lay one night in <persName>Mr.
-               Morgan</persName>'s house; nay, that ever I was in the town of
-               <placeName>Mitchell</placeName> after sunset, I will confess the whole charge.</p>
-         <p>What your lordship mentions 'by the way' I will now consider: 'Some of
-            your western correspondents imposed upon the <hi rend="italic">leaders of
-               Methodisnty</hi> by transmitting to <placeName>London</placeName> a notoriously false
-            account of my Charge to the clergy....Afterwards the Methodists confessed themselves to
-            have been deceived; yet some time after the Methodists at <placeName>Cork</placeName> in
-               <placeName>Ireland</placeName>, your own brother at the head of them, reprinted the
-            same lying pamphlet, as my performance.'<note place="foot">
-                    <hi rend="italic">
-                        <bibl>[The Bishop of Exeter' Answer]</bibl>
-                    </hi>, pp. 4-5.</note>
-            </p>
-         <p>My lord, I know not who are your lordship's Irish correspondents; but here are
-            almost as many mistakes as lines. For, (1). They were none of my correspondents who sent
-            that account to <placeName>London</placeName>; (2). It was sent not to the 'leaders
-            of Methodism', but to one who was no Methodist at all; (3). That it was a false
-            account, I do not know. But your lordship may easily put it out of dispute. And many
-            have wondered that your lordship did not do so long ago, by printing the Charge in
-            question; (4). I did never confess it was a 'false account', nor any person by
-            my consent, or with my knowledge; (5). That account was never reprinted at
-               <placeName>Cork</placeName> at all; (6). When it was reprinted at
-               <placeName>Dublin</placeName> your lordship had not disowned it; (7). My brother was
-            not in <placeName>Dublin</placeName> when it was done; nor did either he or I know of it
-            till long after.</p>
-         <p>Therefore, when my brother was asked how he could reprint such an account after your
-            lordship had publicly disowned it I do not at all wonder that 'he did not offer a
-            single word in answer'.<note place="foot">
-                    <hi rend="italic">
-                        <bibl>[The Bishop of
-                     Exeter' Answer]</bibl>
-                    </hi>, p. 5.</note>
-            </p>
-         <p>Whether this, as well as my former letter, be 'mere rant and
-               declamation',<note place="foot">
-                    <hi rend="italic">
-                        <bibl>[The Bishop of
-                     Exeter' Answer]</bibl>
-                    </hi>, p. 15.</note> or plain and sober reason, I
-            must refer to the world and your lordship's own conscience.</p>
-         <closer>I am, my lord,<lb/> Your lordship's most obedient servant,<lb/>
-            <persName>John Wesley</persName>
-            <lb/>
-            <lb/>
-            <placeName>Newcastle upon Tyne</placeName>,<lb/>
-            <date when="1752-05-08">May 8, 1752</date>
-         </closer>
+                        <bibl>Preservative against Unsettled Nations in
+               Religion</bibl>
+                    </hi>
+                </note> (had you taken the pains to read it) would have convinced
+            you of this. 'Did you send them to convince me of some important truth? I have the
+            New Testament.' So have I, and I have read it for above these fifty years, and for
+            near forty with some attention. Yet I will not say that <persName>Mr. Green</persName>
+            may not convince me of some truth which I never yet learned from it. I want every help,
+            especially from those who strive both to preach and to live the Gospel. Yet certainly I
+            must dissent from you or you from me wherever either conceives the other to vary from
+            it. Some of my writings you 'have read'. But allow me to ask, Did not you read
+            them with much prejudice or little attention? Otherwise surely you would not have termed
+            them 'perplexing'. Very few lay obscurity or intricacy to my charge. Those who
+            do not allow them to be <hi rend="italic">true</hi> do not deny them to be <hi rend="italic">plain</hi>. And if they believe me to have done any good at all by
+            writing, they suppose it is by this very thing, by speaking on practical and
+            experimental religion more plainly than others have done.</p>
+         <p>I quite agree we 'neither can be better men nor better Christians than by
+            continuing members of the Church of England'. And not only her doctrines but many
+            parts of her discipline I have adhered to at the hazard of my life. If in any point I
+            have since varied therefrom, it was not by choice but by necessity. Judge, therefore, if
+            they do well who throw me into the ditch, and then beat me because my clothes are
+            dirty!</p>
+         <closer>Wishing you much of the love of God in your heart and much of his presence in your
+            labours, I remain, reverend sir,<lb/>
+            <signed>Your affectionate brother, <lb/>
+                    <persName>John
+            Wesley</persName>
+                </signed>
+            </closer>
       </body>
    </text>
 </TEI>
